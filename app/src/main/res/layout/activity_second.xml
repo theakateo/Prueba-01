@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/mainLayoutSecondLoginSMVS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombres:" />
+        <EditText android:id="@+id/etNombres2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="textPersonName" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apellidos:" />
+        <EditText android:id="@+id/etApellidos2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="textPersonName" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Primer Numero:" />
+        <EditText android:id="@+id/etPrimerNumero2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Segundo Numero:" />
+        <EditText android:id="@+id/etSegundoNumero2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <Button android:id="@+id/btnSiguiente2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Siguiente" />
+        <Button android:id="@+id/btnCerrar2LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cerrar" android:enabled="false" />
+
+    </LinearLayout>
+</ScrollView>

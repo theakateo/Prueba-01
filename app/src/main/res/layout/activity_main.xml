@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/mainLayoutLoginSMVS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombres:" />
+        <EditText android:id="@+id/etNombres1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="textPersonName" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apellidos:" />
+        <EditText android:id="@+id/etApellidos1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="textPersonName" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Primer Numero:" />
+        <EditText android:id="@+id/etPrimerNumero1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Segundo Numero:" />
+        <EditText android:id="@+id/etSegundoNumero1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Multiplicador (Producto):" />
+        <EditText android:id="@+id/etMultiplicador1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Potencia:" />
+        <EditText android:id="@+id/etPotencia1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Factorial:" />
+        <EditText android:id="@+id/etFactorial1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:enabled="false" android:inputType="number" />
+
+        <Button android:id="@+id/btnSiguiente1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Siguiente" />
+        <Button android:id="@+id/btnMostrar1LoginSMVS" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mostrar Resultados" android:enabled="false" />
+
+    </LinearLayout>
+</ScrollView>
